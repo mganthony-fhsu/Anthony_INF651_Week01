@@ -35,7 +35,7 @@ function setUserName() {
     }
   }
 
-  /* click handler */
+  /* CLICK HANDLER */
   myButton.onclick = function() {
     setUserName();
   }
