@@ -1,8 +1,3 @@
-/* HELLO WORLD */
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
-
-
 /* IMAGE SWITCHER */
 let myImage = document.querySelector('img');
 
@@ -18,6 +13,7 @@ myImage.onclick = function() {
 /* WELCOME MESSAGE */
 
 let myButton = document.querySelector('button');
+let myHeading = document.querySelector('h1');
 
 function setUserName() {
     let myName = prompt('Please enter your name.');
